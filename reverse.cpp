@@ -9,4 +9,11 @@ using namespace std;
     // checking that the value is greater than 0 or not
     while ( i>0 )
     {
-     
+      rev = (rev * 10) + i % 10;
+      i = i /10;
+     }
+    // printing the value
+    cout<<"\n Reverse = "<<rev;
+    return 0;
+
+  }
