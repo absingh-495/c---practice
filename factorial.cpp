@@ -11,5 +11,8 @@ int main()
     fac = fac*n;
     n = n-1;
   }
- 
+  cout<<"\n factorial:"<<fac;
+  return 0;
+}
+
  
